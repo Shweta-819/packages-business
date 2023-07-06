@@ -9,7 +9,6 @@
   "repository": "git@github.com/Cogoport/packages-business.git",
   "author": "Roh-Patil <Rohit.Patil@cogoport.com>",
   "license": "MIT",
-  "private": true,
   "workspaces": [
     "packages/*"
   ],
