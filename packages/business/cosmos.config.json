@@ -1,0 +1,5 @@
+{
+    "$schema": "http://json.schemastore.org/cosmos-config",
+    "port": 4000,
+    "globalImports": ["src/cosmos-styles/cosmos.global.css"]
+}

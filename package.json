@@ -1,0 +1,25 @@
+{
+  "name": "packages-business",
+  "version": "1.0.0",
+  "description": "Business modules for Cogoport's Frontend repositories",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cd packages/business && pnpm dev"
+  },
+  "repository": "git@github.com/Cogoport/packages-business.git",
+  "author": "Roh-Patil <Rohit.Patil@cogoport.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@cogoport/eslint-config": "^2.0.0",
+    "@cogoport/stylelint-config": "^1.0.3",
+    "eslint": "^8.43.0",
+    "stylelint": "^15.9.0"
+  },
+  "dependencies": {
+    "@cogoport/components": "^1.0.428"
+  }
+}
